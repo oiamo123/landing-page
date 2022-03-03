@@ -1,15 +1,21 @@
+.body {
+    font-family:'Roboto', sans-serif;
+}
+
 .header{
     display: flex;
     background-color: #1f2937;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 8em;
+    padding-bottom: 14em;
+    padding-left: 12em;
+    padding-right: 12em;
 }
 .header .box1{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     height: 250px;
     margin: 0;
     border: 0;
@@ -27,6 +33,7 @@
     font-size: 24px;
     color: #f9faf8;
     width: 100%;
+    margin-right: 100%;
 }
 
 .box1 .links ul, a{
@@ -68,7 +75,6 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    font-family:'Roboto', sans-serif;
 }
 
 .body-header{
@@ -76,7 +82,6 @@
     justify-content: center;
     color: #1f2937;
     font-size: 36px;
-    font-family:'Roboto', sans-serif;
     font-weight: bolder;
     margin-bottom: 2em;
 }
@@ -114,13 +119,11 @@
 
 .text{
     max-width: 13em;
-    font-family:'Roboto', sans-serif;
 }
 
 .inspiring-quote{
     background-color: #e5e7eb;
     color: #1f2937;
-    font-family:'Roboto', sans-serif;
     font-size: 36px;
     font-style: italic;
     padding: 6em auto;
@@ -152,9 +155,6 @@
     padding: 4em 7em;
     border-radius: 1em;
 }
-.sign-up div{
-    font-family:'Roboto', sans-serif;
-}
 
 .left-text{
     color: #e5e7eb;
@@ -179,7 +179,6 @@
     background-color: #3882f6;
     border-radius: 7px;
     font-size: 18px;
-    font-family:'Roboto', sans-serif;
     border: 1px solid #3882f6;
     width: 7em;
     justify-content: center;
