@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 15%;
+    padding-bottom: 4%;
+}
+
+nav, .lower {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.header-box, a, .head-body {
+    color: #e5e7eb;
+    font-size: 1.5vw;
+}
+
+.header-title {
+    font-size: 4vw;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.header-box {
+    width: 55%;
+}
+
+#links {
+    width: fit-content;
+    margin-bottom: 16vw;
+}
+
+#header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;    
+}
+
+.images-title {
+    font-weight: bolder;
+    font-size: 3vw;
+    padding: 5vh;
+}
+
+.body-images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    gap: 2vw;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    border: solid blue;
+    border-radius: 2vw;
+    height: 13vw;
+    width: 13vw;
+}
+
+.image-box p {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 7% 15%;
+    margin: 5% 0;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 3vw;
+    font-style: italic;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 1vw;
+    padding: 4% 7%;
+    margin: 4% 5%;
+}
+
+.sign-up-title {
+    font-size: 3vw;
+}
+
+.sign-up-text p {
+    color: #f9faf8;
+    margin: 0%;
+    font-size: 2vw;
+}
+
+.sign-up-text .sign-up-title {
+    font-size: 3vw;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.sign-up button {
+    align-self: center;
+    border-radius: 1vw;
+    border: solid #f9faf8 0.5vw;
+    width: 16vw;
+    height: 5vw;
+    font-size: 2vw;
+}
+
+#header-button {
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1.7vw;
+    width: 14vw;
+    height: 3vw;
+}
+
+
+
